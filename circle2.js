@@ -26,5 +26,6 @@ if (px > 600 || px < 0){
 if (py > 400 || py < 0){
     vy = -vy
 }
+    fill (255, 255, 0)
     ellipse(px, py, radius, radius);
 }
